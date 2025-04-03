@@ -4,7 +4,7 @@ import axios from "axios";
 import { useParams } from 'react-router-dom';
 
 const ShowResult = () => {
-  const url = "http://localhost:3000";
+  const url = "https://myresult-ypmk.onrender.com";
   const { rollNo } = useParams();
 
   const [data, setData] = useState({})
