@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios"
 
 const Home = () => {
-  let url = "http://localhost:3000"
+  let url = "https://myresult-ypmk.onrender.com"
   const [data, setData] = useState([]);
 
   const fetchData = async (e) => {
