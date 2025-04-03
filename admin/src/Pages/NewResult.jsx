@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom"
 import axios from "axios";
 
 const NewResult = () => {
-  let url = "http://localhost:3000"
+  let url = "https://myresult-ypmk.onrender.com"
   const navigate = useNavigate();
   const [data, setData] = useState({
     name: "",
