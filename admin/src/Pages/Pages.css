@@ -1,0 +1,127 @@
+/* --------------------- displaying the error page ---------------------- */
+
+.error{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+.error h1{
+    font-size: 150px;
+    color: red;
+}
+.error p{
+    font-size: 100px;
+    text-align: center;
+}
+.error button{
+    margin-top: 15px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    padding: 10px 60px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+@media (max-width : 750px) {
+    .error h1{
+        font-size: 80px;
+    }
+    .error p{
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+/* ---------------- displaying new result feature ------------------- */
+
+.add-student{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+.add-student h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-student p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: 600;
+    font-size: 17px;
+}
+.dataBar{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.dataBar input{
+    margin-bottom: 10px;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+.dataBar button{
+    height: 30px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width : 1000px) {
+    .dataBar{
+        width: 450px;
+}}
+
+@media (max-width : 550px) {
+    .add-student p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .add-student h1{
+        font-size: 25px;
+    }
+    .dataBar{
+        width: 300px;
+}}
+
+/* -------------------- displaying all students data ----------------- */
+
+.display-data{
+    margin: 30px;
+}
+.display-data h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.display-data table{
+    margin-top: 30px;
+    width: 100%;
+}
+.display-data table th{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#initialRow{
+    background-color: black;
+    color: white;
+}
+.display-data table tr td{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+@media (max-width: 550px) {
+    .display-data table tr td{
+        font-size: 13px;
+    }
+    .display-data table th{
+        font-size: 13px;
+    }
+}

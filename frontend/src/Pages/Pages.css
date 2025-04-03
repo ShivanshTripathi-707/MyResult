@@ -1,0 +1,180 @@
+/* --------------------- displaying the error page ---------------------- */
+
+.error{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+.error h1{
+    font-size: 150px;
+    color: red;
+}
+.error p{
+    font-size: 100px;
+    text-align: center;
+}
+.error button{
+    margin-top: 15px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    padding: 10px 60px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+@media (max-width : 750px) {
+    .error h1{
+        font-size: 80px;
+    }
+    .error p{
+        font-size: 45px;
+        text-align: center;
+    }
+}
+
+/* ----------------- displaying the results ------------------------- */
+
+.result{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+.result h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+}
+.result p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: green;
+    font-size: 17px;
+}
+.result-box{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.result-box input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 32px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: 3px solid black;
+}
+.result-box button{
+    height: 30px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width : 1000px) {
+    .result-box{
+        width: 450px;
+}}
+
+@media (max-width : 550px) {
+    .result p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .result-box{
+        width: 300px;
+}}
+
+/* ---------------- displaying the result of a particular ----------------- */
+
+.display-result{
+    margin: 30px;
+}
+.display-result h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+.display-result p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.display-result table{
+    width: 100%;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.display-result #identity{
+    margin-top: 20px;
+}
+.display-result #identity h3{
+    font-size: 20px;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.display-result #identity p{
+    margin-bottom: 10px;
+    color: initial;
+}
+.display-result #identity span{
+    color: brown;
+}
+.display-result table th{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.display-result table td{
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.checkFail{
+    color: red;
+}
+.checkPass{
+    color: green;
+}
+
+@media (max-width : 550px) {
+    .display-result h1{
+        font-size: 24px;
+    }
+    .display-result p{
+        font-size: 14px;
+    }
+    .display-result table th{
+       font-size: 14px;
+       padding: 5px;
+    }
+}
+
+/* ------------ know more page ----------------------- */
+
+.know-more{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.know-more h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.know-more p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.know-more ul li{
+    text-align: left;
+    margin-left: 20px;
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
